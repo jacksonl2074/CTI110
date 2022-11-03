@@ -34,3 +34,7 @@ food = float(input())
 
 #add up everything
 totalExpenses = gas + hotel + food
+
+print("Your total for your trip is $ ", totalExpenses)
+
+
