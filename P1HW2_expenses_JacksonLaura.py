@@ -34,7 +34,11 @@ food = float(input())
 
 #add up everything
 totalExpenses = gas + hotel + food
+#output - Did they go over budget?
 
 print("Your total for your trip is $ ", totalExpenses)
-
+if totalExpenses > budget:
+        print("You went over the budget!")
+else:
+        print("You stayed within your budget!")
 
